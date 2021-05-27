@@ -40,4 +40,5 @@
   * [\(deprecated\) Advanced configuration](deployment/advanced-configuration.md)
 * [Glossary](glossary.md)
 * [Testing with vynetest](testing-with-vynetest.md)
+* [Excel Plugin](excel-plugin/README.md)
 
