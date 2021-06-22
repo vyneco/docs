@@ -227,7 +227,7 @@ Let's start by finding our new service in the Type Explorer. Head over to the Ty
 
 Select the `CustomerRecordCaskService` to see all the different calls we can make. 
 
-![](../.gitbook/assets/storing-cask-type-explorer%20%282%29.png)
+![](../.gitbook/assets/storing-cask-type-explorer%20%282%29%20%281%29.png)
 
 We are now able to select any of the above operations and we can run them through Vyne's UI. We are going to try out the `findAll` as it is the simplest one. After selecting `findAll` we will see this:
 

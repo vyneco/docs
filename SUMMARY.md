@@ -28,6 +28,7 @@
   * [Overview](casks/cask-server-1.md)
   * [Ingesting data into a cask](casks/cask-ingestion.md)
   * [Configuration](casks/configation/README.md)
+    * [Monitoring 2](casks/configation/monitoring-2.md)
     * [Querying casks through operations](casks/configation/cask-operations.md)
   * [Cask Examples](casks/cask-server.md)
 * [Pipelines](pipelines/README.md)
@@ -40,5 +41,5 @@
   * [\(deprecated\) Advanced configuration](deployment/advanced-configuration.md)
 * [Glossary](glossary.md)
 * [Testing with vynetest](testing-with-vynetest.md)
-* [Excel Plugin](excel-plugin/README.md)
+* [Excel Plugin](excel-plugin.md)
 
