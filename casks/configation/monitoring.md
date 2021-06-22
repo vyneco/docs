@@ -26,7 +26,7 @@ management:
            uri: https://api.datadoghq.com
 ```
 
-###dynatrace
+###Dynatrace
 
 Config
 ```yaml
@@ -40,7 +40,7 @@ management:
            group: vyne
 ```
 
-###elastic
+###ElasticSearch
 
 Config
 ```yaml
@@ -55,7 +55,7 @@ management:
            index: vyne-metrics
 ```
 
-###graphite
+###Graphite
 
 Config
 ```yaml
@@ -68,7 +68,7 @@ management:
            host: localhost
 ```
 
-###influx
+###InfluxDB
 
 Config
 ```yaml
@@ -83,7 +83,7 @@ management:
            password: vyne
 ```
 
-###jmx
+###JMX
 
 Config
 ```yaml
@@ -95,7 +95,7 @@ management:
            domain: vyne-metrics
 ```
 
-###prometheus
+###Prometheus
 
 Vyne Query service
 
@@ -123,3 +123,21 @@ management:
          enabled: true
 ```
 
+# Metrics
+
+The following metrics are exported to the configured monitoring system in addition to JVM and HTTP performance metrics
+
+##Counters
+
+Counters
+
+- cask.import.success
+- cask.import.rejected
+
+##Gauges
+
+Gauge
+
+- schema.compiled.count
+- cask.count
+- cask.row.counts (multi gauge tagged by cask name)
