@@ -10,7 +10,7 @@ Run cask providing an additional configuration file as follows.
 java -jar cask.jar --spring.config.additional-location=file:/cask.yml
 ```
 
-Ensure the custom configuration file contains a management configuration specific to the chosen monitoring system.  Configurations for 
+Ensure the custom configuration file contains a management configuration specific to the chosen monitoring system.  Configurations for
 supported monitoring systems are shown below:
 
 ###datadog
@@ -122,3 +122,4 @@ management:
       prometheus:
          enabled: true
 ```
+

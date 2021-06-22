@@ -28,7 +28,7 @@
   * [Overview](casks/cask-server-1.md)
   * [Ingesting data into a cask](casks/cask-ingestion.md)
   * [Configuration](casks/configation/README.md)
-    * [Monitoring 2](casks/configation/monitoring-2.md)
+    * [Monitoring](casks/configation/monitoring.md)
     * [Querying casks through operations](casks/configation/cask-operations.md)
   * [Cask Examples](casks/cask-server.md)
 * [Pipelines](pipelines/README.md)
