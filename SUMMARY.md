@@ -2,9 +2,7 @@
 
 * [Welcome](README.md)
 * [Overview](overview/README.md)
-  * [Deployment configurations](overview/deployment-configurations.md)
   * [Publishing & sharing schemas](overview/publishing-and-sharing-schemas.md)
-  * [Semantic taxonomies](overview/semantic-data-intro.md)
 * [Developers Guide](developers-guide/README.md)
   * [Setting up Vyne locally](developers-guide/setting-up-vyne-locally.md)
   * [Hello World](developers-guide/employees-on-payroll-demo.md)

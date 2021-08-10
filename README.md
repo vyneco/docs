@@ -8,27 +8,3 @@ Vyne is a platform for automating integration between services.
 
 Vyne provides intelligent on-the-fly integrations, that automatically upgrade themselves as your services update. 
 
-## Maven setup
-
-To grab our artifacts, you'll need the following repository info in your maven build.
-
-```markup
- <repositories>
-      <repository>
-          <id>taxi-releases</id>
-          <url>https://dl.bintray.com/taxi-lang/releases</url>
-      </repository>
-      <repository>
-          <id>vyne-releases</id>
-          <url>http://repo.vyne.co/release</url>
-      </repository>
-      <repository>
-          <id>vyne-snapshots</id>
-          <url>http://repo.vyne.co/snapshot</url>
-          <snapshots>
-              <enabled>true</enabled>
-          </snapshots>
-      </repository>
-  </repositories>
-```
-

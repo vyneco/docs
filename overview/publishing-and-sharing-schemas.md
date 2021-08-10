@@ -58,7 +58,7 @@ In this scenario, services discover each other using Multicast, and form a clust
 
 This has the benefit of much faster restart times, as schemas are served and updated as soon as the service comes online.   
 
-In addition to running as a distributed schema store, this model can optionally support running Vyne entirely embedded within services, removing the need for a centralised Vyne service entirely.  This is discussed in more detail in [Deployment Configurations](deployment-configurations.md).
+In addition to running as a distributed schema store, this model can optionally support running Vyne entirely embedded within services, removing the need for a centralised Vyne service entirely.  This is discussed in more detail in [Deployment Configurations]().
 
 ![](../.gitbook/assets/documentation-images-3-.png)
 

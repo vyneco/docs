@@ -74,8 +74,6 @@ You'll note that we're using Semantic types \(`CustomerId`, `FirstName`, `LastNa
 
 Read more about semantic types here:
 
-{% page-ref page="../overview/semantic-data-intro.md" %}
-
 {% hint style="info" %}
 If you're typing this out, we recommend using [Visual Studio Code](https://code.visualstudio.com/), along with the great Taxi plugin \([taxi-language-server](https://marketplace.visualstudio.com/items?itemName=taxi-lang.taxi-language-server)\).  It provides as-you-type compilation, auto completion, and a bunch of other handy dev tools.
 {% endhint %}

@@ -22,7 +22,7 @@ For example, using our Kotlin SDK:
 given(emailAddress).discover<AccountBalance>
 ```
 
-or, more richly in VyneQL:
+or, more richly in TaxiQL:
 
 ```text
 given {
@@ -68,9 +68,7 @@ Once you've tagged field as having a `CustomerId` \(irrespective of the name ass
 
 This also means that developers are free to leverage whatever domain model that works for them, avoiding the dreaded "Enterprise Domain Model". Vyne understands how to map the data on-the-fly, avoiding all the getter-to-setter mapping that used to take place.
 
-Find out more about Semantic data and Taxi [here](semantic-data-intro.md).
-
-{% page-ref page="semantic-data-intro.md" %}
+Find out more about Semantic data and Taxi [here]().
 
 
 
