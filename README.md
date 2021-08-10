@@ -8,14 +8,6 @@ Vyne is a platform for automating integration between services.
 
 Vyne provides intelligent on-the-fly integrations, that automatically upgrade themselves as your services update. 
 
-{% hint style="warning" %}
-Vyne is cool.  It's also pretty early in it's implementation.  Vyne has bugs, and features are being stabilised.  You **will** find bugs.  When you do,  please let us know by [filing an issue](https://gitlab.com/vyne/vyne/issues).
-
-Also, these docs are evolving.  Please bear with us while we work to document Vyne in it's entirety.
-
-A good starting point is working through the examples.
-{% endhint %}
-
 ## Maven setup
 
 To grab our artifacts, you'll need the following repository info in your maven build.

@@ -1,21 +1,23 @@
 # Monitoring
 
+## Monitoring
+
 Cask exposes metrics relating to the status and performance of loaded Casks to a range of supported monitoring systems.
 
-## Configure a monitoring system
+### Configure a monitoring system
 
 Run cask providing an additional configuration file as follows.
 
-```shell
+```text
 java -jar cask.jar --spring.config.additional-location=file:/cask.yml
 ```
 
-Ensure the custom configuration file contains a management configuration specific to the chosen monitoring system.  Configurations for
-supported monitoring systems are shown below:
+Ensure the custom configuration file contains a management configuration specific to the chosen monitoring system. Configurations for supported monitoring systems are shown below:
 
-###datadog
+#### datadog
 
 Config
+
 ```yaml
 management:
    metrics:
@@ -26,9 +28,10 @@ management:
            uri: https://api.datadoghq.com
 ```
 
-###Dynatrace
+#### Dynatrace
 
 Config
+
 ```yaml
 management:
    metrics:
@@ -40,9 +43,10 @@ management:
            group: vyne
 ```
 
-###ElasticSearch
+#### ElasticSearch
 
 Config
+
 ```yaml
 management:
    metrics:
@@ -55,9 +59,10 @@ management:
            index: vyne-metrics
 ```
 
-###Graphite
+#### Graphite
 
 Config
+
 ```yaml
 management:
    metrics:
@@ -68,9 +73,10 @@ management:
            host: localhost
 ```
 
-###InfluxDB
+#### InfluxDB
 
 Config
+
 ```yaml
 management:
    metrics:
@@ -83,9 +89,10 @@ management:
            password: vyne
 ```
 
-###JMX
+#### JMX
 
 Config
+
 ```yaml
 management:
    metrics:
@@ -95,17 +102,18 @@ management:
            domain: vyne-metrics
 ```
 
-###Prometheus
+#### Prometheus
 
 Vyne Query service
 
-http://localhost:9022/api/actuator/prometheus
+[http://localhost:9022/api/actuator/prometheus](http://localhost:9022/api/actuator/prometheus)
 
 Cask
 
-http://localhost:8800/api/actuator/prometheus
+[http://localhost:8800/api/actuator/prometheus](http://localhost:8800/api/actuator/prometheus)
 
 Config
+
 ```yaml
 management:
    metrics:
@@ -123,21 +131,22 @@ management:
          enabled: true
 ```
 
-# Metrics
+## Metrics
 
 The following metrics are exported to the configured monitoring system in addition to JVM and HTTP performance metrics
 
-##Counters
+### Counters
 
 Counters
 
-- cask.import.success
-- cask.import.rejected
+* cask.import.success
+* cask.import.rejected
 
-##Gauges
+### Gauges
 
 Gauge
 
-- schema.compiled.count
-- cask.count
-- cask.row.counts (multi gauge tagged by cask name)
+* schema.compiled.count
+* cask.count
+* cask.row.counts \(multi gauge tagged by cask name\)
+
